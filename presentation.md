@@ -9,11 +9,11 @@ project: object-oriented-office
 
 ### Collaborative Intelligence.
 
-![OOO - Network of Objects](https://github.com/site2site/object-oriented-office/master/docs/images/ooo_network-01.png)
+![OOO - Network of Objects](https://raw.github.com/site2site/object-oriented-office/master/docs/images/ooo_network-01.png)
 
 True innovation in architecture arises not from the hours spent hunched over a desk, but rather in the moments of shared respite -- the smoke breaks, coffee runs, and shared distractions we relish to reconnect and retain our sanity.
 
-![Cigarettes, Coffee, and Cats](https://github.com/site2site/object-oriented-office/master/docs/images/distractions-01.png)
+![Cigarettes, Coffee, and Cats](https://raw.github.com/site2site/object-oriented-office/master/docs/images/distractions-01.png)
 
 This is nothing new to architecture -- office design has been slowly moving away from the language of corner offices and the cubicles to foster spaces of chance encounters and impromptu social gatherings. Similarly, the software and tools we use to generate our work has also seen a shift to the collaborative, moving from the confines of our desks to the cloud, allowing us to work in new ways and across physical divides.
 
@@ -28,13 +28,13 @@ Despite these advances, space making and software are not a complete panacea. Si
 
 A "smart" chair becomes an object for gathering information about it’s occupants behavior and conduit for physical communication. The way we sit conveys a lot about our actions, whether we are leaning in and focused on our work, hunched over in a power nap, or leaning back to take a mental break. Embedded sensors detect heat, motion, and orientation, helping us focus when we are in the zone, and--with the assistance of integrated actuators--subtly directing us to productive opportunities for collaboration when we are in need of distraction.
 
-*	![Chair_sleeper](https://github.com/site2site/object-oriented-office/master/docs/images/seat_activity-01.png)
-*	![Chair_worker](https://github.com/site2site/object-oriented-office/master/docs/images/seat_activity-02.png)
-*	![Chair_daydreamer](https://github.com/site2site/object-oriented-office/master/docs/images/seat_activity-03.png)
+*	![Chair_sleeper](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-01.png)
+*	![Chair_worker](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-02.png)
+*	![Chair_daydreamer](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-03.png)
 
 RFID sensors allow our furniture to know who we are (name tags for the digital realm), in addition to what we are doing, and, when employed in appliances of social gathering (like the coffee pot), can remotely inform and direct us to potential opportunities for collaborative socialization. Remote access to the cloud also allows for personalization, providing the smart chair with data to make intelligent suggestions, tailoring its recommendations for interaction to our mood, social desires, and personal interests.
 
-*	![Chair_floorPlan](https://github.com/site2site/object-oriented-office/master/docs/images/92113_studioxplan1-01.png)
+*	![Chair_floorPlan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxplan1-01.png)
 
 *	![Chair_rendering2](http://google.com/)
 
