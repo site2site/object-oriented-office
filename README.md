@@ -1,4 +1,6 @@
-appliances-action
+object-oriented-office
 =================
 
-Appliances action project
+Object Oriented Office project
+
+A network of smart furniture/appliance for sensing and instigating collaborative behavior.
