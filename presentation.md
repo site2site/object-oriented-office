@@ -42,10 +42,11 @@ RFID sensors allow our furniture to know who we are (name tags for the digital r
 *	![Chair_components](http://google.com/)
 
 ###Reference
+Diller+Scofidio - Braincoats for the Blur Building (unrealized)
 *	__![Braincoat - HumanInput](https://github-camo.global.ssl.fastly.net/8efef98c183286c846ec2953829bfc13def51714/687474703a2f2f6473726e792e636f6d2f70726f6a656374732f426c7572427261696e636f61742f30382d76697375616c2d636f6d6d756e69636174696f6e732d636f2e6a7067)__
-*	__![Braincoat - Interaction](https://github-camo.global.ssl.fastly.net/ccff3d5ac3c230585521aa9bfde44ce289fd6167/687474703a2f2f6473726e792e636f6d2f70726f6a656374732f426c7572427261696e636f61742f31382d2d7472616e736d697373696f6e2d7a6f6e65732d636f70792e6a7067)__
+	__![Braincoat - Interaction](https://github-camo.global.ssl.fastly.net/ccff3d5ac3c230585521aa9bfde44ce289fd6167/687474703a2f2f6473726e792e636f6d2f70726f6a656374732f426c7572427261696e636f61742f31382d2d7472616e736d697373696f6e2d7a6f6e65732d636f70792e6a7067)__
 *	__![RefProject2](http://google.com)__
-*	__![RefProject2](http://google.com)__
+	__![RefProject2](http://google.com)__
 
 ## Scenario 2: Cross-Office Feeds
 
