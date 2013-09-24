@@ -13,8 +13,6 @@ project: object-oriented-office
 
 True innovation in architecture arises not from the hours spent hunched over a desk, but rather in the moments of shared respite -- the smoke breaks, coffee runs, and shared distractions we relish to reconnect and retain our sanity.
 
-![Cigarettes, Coffee, and Cats](https://raw.github.com/site2site/object-oriented-office/master/docs/images/distractions-01.png)
-
 This is nothing new to architecture -- office design has been slowly moving away from the language of corner offices and the cubicles to foster spaces of chance encounters and impromptu social gatherings. Similarly, the software and tools we use to generate our work has also seen a shift to the collaborative, moving from the confines of our desks to the cloud, allowing us to work in new ways and across physical divides.
 
 Despite these advances, space making and software are not a complete panacea. Situated in the space between the software and the architecture are a milieu of objects we interact with everyday that aren’t capitalizing on their latent potential. By embedding the everyday furniture and appliances with inexpensive technology, we can turn these “dumb objects” of the office into an ad-hoc network of intelligence, capable of interpreting, translating, and responding to our habits into even more opportunities for collaboration.
