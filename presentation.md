@@ -22,9 +22,11 @@ Despite these advances, space making and software are not a complete panacea. Si
 
 ## Scenario 1: Unoccupied Opportunities
 
-*	![Chair_rendering1](http://google.com/)
+*	![Chair - Rendering 01](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario1.gif)
 
-### The chair is the common platform of the office, a fairly pedestrian object designed for ergonomics, but an untapped resource.
+###A network of smart seating, programmed for collaborative instigation.
+
+The chair is the common platform of the office, a fairly pedestrian object designed for ergonomics, but an untapped resource.
 
 A "smart" chair becomes an object for gathering information about it’s occupants behavior and conduit for physical communication. The way we sit conveys a lot about our actions, whether we are leaning in and focused on our work, hunched over in a power nap, or leaning back to take a mental break. Embedded sensors detect heat, motion, and orientation, helping us focus when we are in the zone, and--with the assistance of integrated actuators--subtly directing us to productive opportunities for collaboration when we are in need of distraction.
 
@@ -38,6 +40,10 @@ RFID sensors allow our furniture to know who we are (name tags for the digital r
 
 *	![Chair_rendering2](http://google.com/)
 
+###Expanded Opportunities
+
+We are excited by the potential for these smart appliances to operate at two levels. Locally, these devices transform a stream of sensor data into real-world responses that influence/instigate our collaborations within the immediate environment. However, they also allow for the possibility of separate, secondary response across the decentralized Studio-X network via the cloud. This can be manifest simply as a visualization (a map of activity on the Studio-X website) or as a conduit for physical communication between spaces separated by thousands of miles (imagine being able to tap on the shoulder of someone in Studio-X Rio from Studio-X New York to get their attention).
+
 ###Component Elements
 *	![Chair_components](http://google.com/)
 
@@ -50,8 +56,24 @@ Diller+Scofidio - Braincoats for the Blur Building (unrealized)
 
 ## Scenario 2: Cross-Office Feeds
 
-### Scenario description goes here...
+### Embedding sentiment in smart office furniture's to broadcast messages, emoticons and solicitations to a newsfeed streamed on a projection.
 
-*	![Image1](http://google.com/)
-*	![Image2](http://google.com/)
-*	![Image3](http://google.com/)
+What if objects can talk?
+
+From the perspective of the coffee machine, it witnesses who uses it, relies on it, spends the most amount of time near it while watching events unfold and interactions take place near its presence. Architecture can be understood as the programming and organization of space. The episodes that take place within evolve over time and memories of what took place are limited only by the people who were apart of them in happenstance. The “Ric-Rac” of furniture’s and appliances meant to aid the programming of spaces are static and don’t exist unless they are used but then forgotten shortly after. What if chairs can broadcast a desire to be seated on? What if a table invited two acquaintances to work together? What if our “Ric-Rac” had the ability to record the new encounters they helped facilitate that day by broadcasting their achievements on a visible domain with messages, emoticons and friendly solicitations? Moreover – what if these appliances “bragged” and “responded” to their counterparts in other office locations via a public newsfeed display? Our static objects need their own space to communicate. Peer up at the projected “newsfeed wall” and delight at the water-cooler reminding us to pass a drink to a pre-occupied friend, the table specifically asking you to share a work desk with someone you haven’t worked with in a while and the coffee machine calling out two lonesome office workers to come enjoy a hot coffee in the break room.
+
+*	![CrossOffice - Rendering 01](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scnario2-newsfeed.gif)
+*	![CrossOffice - Diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-diagram.gif)
+*	![CrossOffice - Studio Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxdia2.png)
+
+###Strategies for Success
+
+(1) Quantifying uses 
+Objects quantified by their intended uses and variables such as the duration of use, the person(s) using the objects and the time of day they are being used set up the possibility to attach emotions or responses to these varied scenarios. A list of “If” statements pertaining to use can be aligned with specific responses meant to be triggered and recorded for broadcast.
+
+(2) Triggering Emotional Responses
+The objects are embedded with emotional triggers and solicitations in an attempt incite an emotional response by the people reading an objects sentiment. A person ignoring object requests will incite a deeper emotional response by the object displayed on the newsfeed. Likewise, if a person is responding to object requests then he/she is an active collaborator to the office environment and will be noticed as such on the newsfeed. 
+
+(3) You In Social Media Written By Objects
+The intent is broadcast this newsfeed publicly to other studio x-offices. Employees build personalities based on what the objects say about them and who they are usually talking with (or “friends” with). These sentiment driven objects also are able to quantify general office moods as well as individual personality types. 
+
