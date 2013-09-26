@@ -63,8 +63,9 @@ What if objects can talk?
 From the perspective of the coffee machine, it witnesses who uses it, relies on it, spends the most amount of time near it while watching events unfold and interactions take place near its presence. Architecture can be understood as the programming and organization of space. The episodes that take place within evolve over time and memories of what took place are limited only by the people who were apart of them in happenstance. The “Ric-Rac” of furniture’s and appliances meant to aid the programming of spaces are static and don’t exist unless they are used but then forgotten shortly after. What if chairs can broadcast a desire to be seated on? What if a table invited two acquaintances to work together? What if our “Ric-Rac” had the ability to record the new encounters they helped facilitate that day by broadcasting their achievements on a visible domain with messages, emoticons and friendly solicitations? Moreover – what if these appliances “bragged” and “responded” to their counterparts in other office locations via a public newsfeed display? Our static objects need their own space to communicate. Peer up at the projected “newsfeed wall” and delight at the water-cooler reminding us to pass a drink to a pre-occupied friend, the table specifically asking you to share a work desk with someone you haven’t worked with in a while and the coffee machine calling out two lonesome office workers to come enjoy a hot coffee in the break room.
 
 *	![CrossOffice - Rendering 01](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-newsfeed.gif)
-*	![CrossOffice - Diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-diagram.gif)
-*	![CrossOffice - Studio Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxdia2.png)
+*	![CrossOffice - Render 02](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-diagram.gif)
+*	![CrossOffice - Diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxdia2.png)
+*	![CrossOffice - Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92413_studioxplan2_working.png)
 
 ###Strategies for Success
 
