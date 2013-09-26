@@ -87,8 +87,18 @@ The intent is broadcast this newsfeed publicly to other studio x-offices. Employ
 
 *	![CrossOffice - Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92413_studioxplan2_working.png)
 
+***
+
+###Component Workflow
+*	![Components Diagram 1](https://raw.github.com/site2site/object-oriented-office/master/docs/images/component_diagram-01.png)
+Sensor inputs from chair are processed by the Arduino.
+*	![Components Diagram 2](https://raw.github.com/site2site/object-oriented-office/master/docs/images/component_diagram-02.png)
+Inputs are translated and parsed by the RaspberryPI and the cloud into local and global responses.
+
+***
+
 ###Component Elements
-*	![CrossOffice Components](http://google.com/)
+(Chair) -> (Thermistor & Flex Sensor) -> (Rangefinder & Magnetometer) -> (RFID Tag & Reader) -> (Arduino) -> (RaspberryPI)
 
 ***
 
