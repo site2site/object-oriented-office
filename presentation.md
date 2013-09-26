@@ -50,9 +50,6 @@ Chairs relay information to GSAPP Cloud - recording activity and collaboration a
 (3) Local-Global / Person to Cloud to Person
 Chairs act as a conduit for communication between collaborators in different Studio-X locations.
 
-####Component Elements
-*	![Chair_components](http://google.com/)
-
 ***
 
 ## Scenario 2: Cross-Office Feeds
@@ -91,8 +88,10 @@ The intent is broadcast this newsfeed publicly to other studio x-offices. Employ
 
 ###Component Workflow
 *	![Components Diagram 1](https://raw.github.com/site2site/object-oriented-office/master/docs/images/component_diagram-01.png)
+
 Sensor inputs from chair are processed by the Arduino.
 *	![Components Diagram 2](https://raw.github.com/site2site/object-oriented-office/master/docs/images/component_diagram-02.png)
+
 Inputs are translated and parsed by the RaspberryPI and the cloud into local and global responses.
 
 ***
