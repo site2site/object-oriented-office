@@ -31,34 +31,48 @@ A "smart" chair becomes an object for gathering information about it’s occupan
 *	![Chair_sleeper](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-01.png)
 *	![Chair_worker](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-02.png)
 *	![Chair_daydreamer](https://raw.github.com/site2site/object-oriented-office/master/docs/images/seat_activity-03.png)
+Sensors translate position into program.
 
+####Getting to Know You
 RFID sensors allow our furniture to know who we are (name tags for the digital realm), in addition to what we are doing, and, when employed in appliances of social gathering (like the coffee pot), can remotely inform and direct us to potential opportunities for collaborative socialization. Remote access to the cloud also allows for personalization, providing the smart chair with data to make intelligent suggestions, tailoring its recommendations for interaction to our mood, social desires, and personal interests.
 
 *	![Chair_floorPlan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxplan1-01.png)
 
-*	![Chair_rendering2](http://google.com/)
 
-###Expanded Opportunities
+####Scales of Influence
 
-We are excited by the potential for these smart appliances to operate at two levels. Locally, these devices transform a stream of sensor data into real-world responses that influence/instigate our collaborations within the immediate environment. However, they also allow for the possibility of separate, secondary response across the decentralized Studio-X network via the cloud. This can be manifest simply as a visualization (a map of activity on the Studio-X website) or as a conduit for physical communication between spaces separated by thousands of miles (imagine being able to tap on the shoulder of someone in Studio-X Rio from Studio-X New York to get their attention).
+(1) Local / Person to Person
+Chairs coordinate collaboration within the immediate environment.
 
-###Component Elements
+(2) Global / Person to Cloud
+Chairs relay information to GSAPP Cloud - recording activity and collaboration across Studio-X locations.
+
+(3) Local-Global / Person to Cloud to Person
+Chairs act as a conduit for communication between collaborators in different Studio-X locations.
+
+####Component Elements
 *	![Chair_components](http://google.com/)
 
 ***
 
 ## Scenario 2: Cross-Office Feeds
 
+*	![CrossOffice - Rendering 01](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-newsfeed.gif)
+
 ### Embedding sentiment in smart office furniture's to broadcast messages, emoticons and solicitations to a newsfeed streamed on a projection.
 
 What if objects can talk?
 
-From the perspective of the coffee machine, it witnesses who uses it, relies on it, spends the most amount of time near it while watching events unfold and interactions take place near its presence. Architecture can be understood as the programming and organization of space. The episodes that take place within evolve over time and memories of what took place are limited only by the people who were apart of them in happenstance. The “Ric-Rac” of furniture’s and appliances meant to aid the programming of spaces are static and don’t exist unless they are used but then forgotten shortly after. What if chairs can broadcast a desire to be seated on? What if a table invited two acquaintances to work together? What if our “Ric-Rac” had the ability to record the new encounters they helped facilitate that day by broadcasting their achievements on a visible domain with messages, emoticons and friendly solicitations? Moreover – what if these appliances “bragged” and “responded” to their counterparts in other office locations via a public newsfeed display? Our static objects need their own space to communicate. Peer up at the projected “newsfeed wall” and delight at the water-cooler reminding us to pass a drink to a pre-occupied friend, the table specifically asking you to share a work desk with someone you haven’t worked with in a while and the coffee machine calling out two lonesome office workers to come enjoy a hot coffee in the break room.
+From the perspective of the coffee machine, it witnesses who uses it, relies on it, spends the most amount of time near it while watching events unfold and interactions take place near its presence. Architecture can be understood as the programming and organization of space. The episodes that take place within evolve over time and memories of what took place are limited only by the people who were apart of them in happenstance. The “Ric-Rac” of furniture’s and appliances meant to aid the programming of spaces are static and don’t exist unless they are used but then forgotten shortly after.
 
-*	![CrossOffice - Rendering 01](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-newsfeed.gif)
+What if chairs can broadcast a desire to be seated on? What if a table invited two acquaintances to work together?
+
+What if our “Ric-Rac” had the ability to record the new encounters they helped facilitate that day by broadcasting their achievements on a visible domain with messages, emoticons and friendly solicitations? Moreover – what if these appliances “bragged” and “responded” to their counterparts in other office locations via a public newsfeed display? Our static objects need their own space to communicate.
+
+Peer up at the projected “newsfeed wall” and delight at the water-cooler reminding us to pass a drink to a pre-occupied friend, the table specifically asking you to share a work desk with someone you haven’t worked with in a while and the coffee machine calling out two lonesome office workers to come enjoy a hot coffee in the break room.
+
+
 *	![CrossOffice - Render 02](https://raw.github.com/site2site/object-oriented-office/master/docs/images/scenario2-diagram.gif)
-*	![CrossOffice - Diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92113_studioxdia2.png)
-*	![CrossOffice - Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92413_studioxplan2_working.png)
 
 ###Strategies for Success
 
@@ -71,6 +85,8 @@ The objects are embedded with emotional triggers and solicitations in an attempt
 (3) You In Social Media Written By Objects
 The intent is broadcast this newsfeed publicly to other studio x-offices. Employees build personalities based on what the objects say about them and who they are usually talking with (or “friends” with). These sentiment driven objects also are able to quantify general office moods as well as individual personality types. 
 
+*	![CrossOffice - Plan](https://raw.github.com/site2site/object-oriented-office/master/docs/images/92413_studioxplan2_working.png)
+
 ###Component Elements
 *	![CrossOffice Components](http://google.com/)
 
@@ -80,5 +96,3 @@ The intent is broadcast this newsfeed publicly to other studio x-offices. Employ
 Diller+Scofidio - Braincoats for the Blur Building (unrealized)
 *	__![Braincoat - HumanInput](https://github-camo.global.ssl.fastly.net/8efef98c183286c846ec2953829bfc13def51714/687474703a2f2f6473726e792e636f6d2f70726f6a656374732f426c7572427261696e636f61742f30382d76697375616c2d636f6d6d756e69636174696f6e732d636f2e6a7067)__
 	__![Braincoat - Interaction](https://github-camo.global.ssl.fastly.net/ccff3d5ac3c230585521aa9bfde44ce289fd6167/687474703a2f2f6473726e792e636f6d2f70726f6a656374732f426c7572427261696e636f61742f31382d2d7472616e736d697373696f6e2d7a6f6e65732d636f70792e6a7067)__
-*	__![RefProject2](http://google.com)__
-	__![RefProject2](http://google.com)__
