@@ -2,15 +2,16 @@
 
 Your project senses the occupancy of a chair, and how it is being occupied. This includes weight distribution, directionality, and a derivation of the current state based on proximity to two types of desks: work station and large collaborative desk. We can't afford to put full hardware assemblies on every chair in Studio-X, so we think you should focus on making prototypes for 3 work station chairs at Studio-X: Benedict's chair, the person next to him, and the person behind him.
 
+We think you should focus on a slip-cover for the chairs that include all the sensors you will need. You can have many force sensors to set up a grid that will run along the seat and the back rest, and a magnetometer to figure out rotational direction.
+
 From this, you will be able to determine:
 
 1.	Which of the three chairs are occupied using pressure sensors in the seats
 2.	How the person is sitting by sensing weight distribution
 3.	When the chairs rotate, and in which direction they are pointing
 
-You can then start to make inferences based on how this small group of 3 chairs works together.
+You can then start to make inferences based on how this small group of 3 chairs works together. You should design a few metrics that are based on the information you can collect, and then think about how you might respond to different states with actuators (eg. a buzzer that rings if someone has been slouching and not moving for 30 minutes).
 
-We think you should focus on a slip-cover for the chairs that include all the sensors you will need. You can have many force sensors to set up a grid that will run along the seat and the back rest, and a magnetometer to figure out rotational direction.
 
 
 
