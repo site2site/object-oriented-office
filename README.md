@@ -11,3 +11,5 @@ The premise of the project, a series of connected objects operated providing a r
 
 I think we also face a unique challenge in that our project has no unobtrusive options. While some elements may be incorporated into the "data" aspect of the studio, we still require direct physical contact with the users of Studio-X, and must find a way to integrate into their space without disruption (or unproductive disruption, that is).
 @jstoddart
+
+I agree that one of the hardest parts of this project will be intigrating it into the existing office culture. I think that with a more traditional office space the collaboration idea would work better. I think that recording the habits of the office staff would be interesting but in the end it wouldnt produce anything physical in return. I might be interesting to have a record of the movements of the chair and at the end of the day a projector from the ceiling translates the paths into lights. They were really concerned about the lighting aspect, maybe this could be a good compromise. @kjscities
