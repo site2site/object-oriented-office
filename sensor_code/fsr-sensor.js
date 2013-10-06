@@ -1,30 +1,24 @@
 var five = require("johnny-five"),
-        board, photoresistor;
+    fsr;
+    //led;
 
-    board = new five.Board();
+(new five.Board()).on("ready", function() {
 
-    board.on("ready", function() {
+  // Create a new `fsr` hardware instance.
+  fsr = new five.Sensor({
+    pin: "A0",
+    freq: 25
+  });
 
-      // Create a new `photoresistor` hardware instance.
-      photoresistor = new five.Sensor({
-        pin: "A2",
-        freq: 250
-      });
+  //led = new five.Led(9);
 
-      // Inject the `sensor` hardware into
-      // the Repl instance's context;
-      // allows direct command line access
-      board.repl.inject({
-        pot: photoresistor
-      });
+  // Scale the sensor's value to the LED's brightness range
+  fsr.scale([ 0, 100 ]).on("data", function() {
 
-      // "data" get the current reading from the photoresistor
-      photoresistor.on("data", function() {
-        console.log( this.value );
-      });
-    });
+    // set the led's brightness based on force
+    // applied to force sensitive resistor
 
-
-    // References
-    //
-    // http://nakkaya.com/2009/10/29/connecting-a-photoresistor-to-an-arduino/
+    //led.brightness( this.value );
+    console.log( this.value );
+  });
+});
