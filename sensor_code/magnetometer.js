@@ -1,30 +1,72 @@
 var five = require("johnny-five"),
-        board, photoresistor;
+    mag;
 
-    board = new five.Board();
+five.Board().on("ready", function() {
 
-    board.on("ready", function() {
+  // Create a new `Magnetometer` hardware instance.
+  //
+  // five.Magnetometer();
+  //
+  // (Alias of:
+  //   new five.Compass({
+  //    device: "HMC5883L",
+  //    freq: 50,
+  //    gauss: 1.3
+  //   });
+  // )
+  //
 
-      // Create a new `photoresistor` hardware instance.
-      photoresistor = new five.Sensor({
-        pin: "A2",
-        freq: 250
-      });
+  mag = new five.Magnetometer();
 
-      // Inject the `sensor` hardware into
-      // the Repl instance's context;
-      // allows direct command line access
-      board.repl.inject({
-        pot: photoresistor
-      });
 
-      // "data" get the current reading from the photoresistor
-      photoresistor.on("data", function() {
-        console.log( this.value );
-      });
-    });
+  // Properties
+
+  // mag.raw
+  //
+  // x, y, z
+  //
+
+  // mag.scaled
+  //
+  // axis x, y, z
+  //
+  // based on value stored at (mag.scale)
+  //
+
+  // mag.heading
+  //
+  // Calculated heading in degrees (calibrated for magnetic north)
+  //
+
+  // mag.bearing
+  //
+  // Bearing data object
+  //
+
+
+  // Magnetometer Event API
+
+  // "headingchange"
+  //
+  // Fires when the calculated heading has changed
+  //
+  mag.on("headingchange", function() {
+
+    console.log( "heading", Math.floor(this.heading) );
+    console.log( "bearing", this.bearing );
+
+  });
+
+  // "read"
+  //
+  // Fires continuously, every 66ms.
+  //
+  mag.on("read", function( err, timestamp ) {
+    // console.log( "read", this.axis );
+  });
+});
 
 
     // References
     //
-    // http://nakkaya.com/2009/10/29/connecting-a-photoresistor-to-an-arduino/
+    // https://github.com/rwaldron/johnny-five/blob/master/docs/magnetometer.md
