@@ -23,6 +23,9 @@ WIRING DIAGRAM:
   https://raw.github.com/site2site/object-oriented-office/master/docs/images/ooo_office_v0-2.png
 
 */
+//log deltas to the console for debugging thresholds
+var debug = false;
+var debug_sensor = 0;
 
 
 var five = require("johnny-five"),
@@ -86,7 +89,11 @@ function occupied( fsr_index, value ){
   //determine value range
   var delta = max - min;
   
-  //console.log(delta);
+  if (debug){
+    if (fsr_index == debug_sensor){
+          console.log(fsr_index+ ': '+ delta);
+    }
+  }
 
   //check if value range is within occupancy threshold
   if(delta > thresholds[ fsr_index ]){
@@ -106,7 +113,7 @@ function occupied( fsr_index, value ){
   });
 
   buffers[0] = [];
-  thresholds[0] = 70;
+  thresholds[0] = 40;
 
   fsrs[0].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
@@ -117,7 +124,6 @@ function occupied( fsr_index, value ){
   });
 
 
-
   //FSR 01
   fsrs[1] = new five.Sensor({
     pin: "A1",
@@ -125,7 +131,7 @@ function occupied( fsr_index, value ){
   });
 
   buffers[1] = [];
-  thresholds[1] = 80;
+  thresholds[1] = 60;
   
   fsrs[1].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
@@ -134,6 +140,7 @@ function occupied( fsr_index, value ){
       console.log( 'occupied fsr 1' );
     }
   });
+
   
   /*
   //MAGNETOMETER
