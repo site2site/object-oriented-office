@@ -10,13 +10,21 @@ FUNCTION: Operating code, via the Johhny-Five framework,
 SENSORS: FSR (force-sensitive resistor), Magnetometer (compass)
 
 ISSUES:
-  (1) Determine Threshold Values
+  (0) 2+ FSRs Produce Reading Drift -> Buffered Reading (see 1)
+  (1) Determine Threshold Values for each FSR (tweak for setting)
   (2) Working Magnetometer
+
+FSR LOCATIONS:
+  (0) Chair Seat
+  (1) Chair Back
+
+WIRING DIAGRAM:
+  https://raw.github.com/site2site/object-oriented-office/master/docs/images/ooo_office_v0-2.png
 */
 
 
 var five = require("johnny-five"),
-    board, fsr1, fsr2, fsr3, fsr4, mag;
+    board, fsr1, fsr2, mag;
     //led;
 
 //array of output buffers
@@ -31,6 +39,7 @@ var MAX_BUFFER_LENGTH = 5;
 //function for grabbing minimum value from buffer array
 function getMin( buf ){
   var rtn = buf[0];
+  //check if buffer value is lower than current min / ifso log as min
   for(var i = 1; i < buf.length; i++){
     rtn = Math.min( rtn, buf[i] );
   }
@@ -40,6 +49,7 @@ function getMin( buf ){
 //function for grabbing maximum value from buffer array
 function getMax( buf ){
   var rtn = buf[0];
+  //check if buffer value is higher than current max / ifso log as max
   for(var i = 1; i < buf.length; i++){
     rtn = Math.max( rtn, buf[i] );
   }
@@ -123,45 +133,21 @@ function occupied( fsr_index, value ){
     }
   });
   
-
   /*
-  //FSR 02
-  fsrs[2] = new five.Sensor({
-    pin: "A3",
-    freq: 100
+  //MAGNETOMETER
+  mag = new five.Magnetometer();
+
+  //on heading change
+  mag.on("headingchange", function() {
+    console.log( "heading", Math.floor(this.heading) );
+    console.log( "bearing", this.bearing );
   });
 
-  buffers[2] = [];
-  thresholds[2] = 80;
-  
-  fsrs[2].scale([ 0, 100 ]).on("data",function(){
-    //console.log("seat_left: " + this.value);
-    var oc = occupied( 1, this.value );
-    if(oc == true){
-      console.log( 'occupied fsr 2' );
-    }    
-  });
-  
-
-  //FSR 03
-  fsrs[3] = new five.Sensor({
-    pin: "A4",
-    freq: 100
+  //raw data logging
+  mag.on("data", function( err, timestamp ) {
+     console.log( "data", this.raw );
+     //process.exit();
   });
 
-  buffers[3] = [];
-  thresholds[3] = 80;
-  
-  
-  fsrs[3].scale([ 0, 100 ]).on("data",function(){
-    //console.log("seat_left: " + this.value);
-
-    var oc = occupied( 1, this.value );
-
-    if(oc == true){
-      console.log( 'occupied fsr 2' );
-    }    
-  });
   */
-
 });
