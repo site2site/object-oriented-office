@@ -16,8 +16,13 @@ five.Board().on("ready", function() {
   // )
   //
 
-  mag = new five.Magnetometer();
+  //mag = new five.Magnetometer();
 
+  mag = new five.Compass({
+    device: "HMC6352",
+    freq: 50,
+    gauss: 5.6
+  });
 
   // Properties
 
@@ -50,12 +55,12 @@ five.Board().on("ready", function() {
   //
   // Fires when the calculated heading has changed
   //
-  mag.on("headingchange", function() {
+  //mag.on("headingchange", function() {
 
     //console.log( "heading", Math.floor(this.heading) );
     //console.log( "bearing", this.bearing );
 
-  });
+  //});
 
   // "read"
   //
