@@ -8,6 +8,7 @@ FUNCTION: Operating code, via the Johhny-Five framework,
   chair, and determining whether the chair is occupied and
   how it is oriented.
 SENSORS: FSR (force-sensitive resistor), Magnetometer (compass)
+HARDWARE: Arduino Uno R3
 
 ISSUES:
   (0) 2+ FSRs Produce Reading Drift -> Buffered Reading (see 1)
@@ -20,6 +21,7 @@ FSR LOCATIONS:
 
 WIRING DIAGRAM:
   https://raw.github.com/site2site/object-oriented-office/master/docs/images/ooo_office_v0-2.png
+
 */
 
 
