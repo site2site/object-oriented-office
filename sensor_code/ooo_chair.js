@@ -90,7 +90,7 @@ function occupied( fsr_index, value ){
   //FSR 00
   fsrs[0] = new five.Sensor({
     pin: "A0",
-    freq: 250
+    freq: 100
   });
 
   buffers[0] = [];
@@ -109,7 +109,7 @@ function occupied( fsr_index, value ){
   //FSR 01
   fsrs[1] = new five.Sensor({
     pin: "A1",
-    freq: 250
+    freq: 100
   });
 
   buffers[1] = [];
