@@ -44,7 +44,7 @@ var occupyBack = false;
 
 
 //length of buffer array
-var MAX_BUFFER_LENGTH = 9;
+var MAX_BUFFER_LENGTH = 15;
 
 //function for grabbing minimum value from buffer array
 function getMin( buf ){
