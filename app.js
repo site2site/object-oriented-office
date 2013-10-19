@@ -42,11 +42,11 @@ var thresholds = [];
 var occupySeat = false;
 var occupyBack = false;
 //frequency to ping sensors
-var pingRate = 50;
+var pingRate = 100;
 
 
 //length of buffer array
-var MAX_BUFFER_LENGTH = 15;
+var MAX_BUFFER_LENGTH = 25;
 
 //function for grabbing minimum value from buffer array
 function getMin( buf ){
