@@ -24,8 +24,8 @@ WIRING DIAGRAM:
 
 */
 //log deltas to the console for debugging thresholds
-var debug = true;
-var debug_sensor = 1;
+var debug = false;
+var debug_sensor = 0;
 
 
 var five = require("johnny-five"),
@@ -131,7 +131,7 @@ function occupied( fsr_index, value ){
   });
 
   buffers[1] = [];
-  thresholds[1] = 85;
+  thresholds[1] = 70;
   
   fsrs[1].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
