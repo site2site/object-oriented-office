@@ -38,8 +38,13 @@ var buffers = [];
 var fsrs = [];
 //array of thresholds values
 var thresholds = [];
+//array for on/off buffer
+var occupySeat = false;
+var occupyBack = false;
+
+
 //length of buffer array
-var MAX_BUFFER_LENGTH = 5;
+var MAX_BUFFER_LENGTH = 9;
 
 //function for grabbing minimum value from buffer array
 function getMin( buf ){
@@ -119,8 +124,14 @@ function occupied( fsr_index, value ){
     //console.log("seat_left: " + this.value);
     var oc = occupied( 0, this.value );
     if(oc == true){
-      console.log( 'occupied fsr 0' );
-    }    
+      //console.log( 'occupied fsr 0' );
+      occupySeat = true;
+      if (occupyBack != true){
+        console.log('seat occupied');
+      }
+    } else {
+      occupySeat = false;
+    }
   });
 
 
@@ -137,7 +148,13 @@ function occupied( fsr_index, value ){
     //console.log("seat_left: " + this.value);
     var oc = occupied( 1, this.value );
     if(oc == true){
-      console.log( 'occupied fsr 1' );
+      //console.log( 'occupied fsr 1' );
+      if (occupySeat){
+        occupyBack = true;
+        console.log('seat & back occupied')
+      }
+    } else {
+      occupyBack = false;
     }
   });
 
