@@ -42,7 +42,7 @@ var thresholds = [];
 var occupySeat = false;
 var occupyBack = false;
 //frequency to ping sensors
-var pingRate = 250;
+var pingRate = 50;
 
 
 //length of buffer array
