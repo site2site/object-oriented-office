@@ -41,6 +41,8 @@ var thresholds = [];
 //array for on/off buffer
 var occupySeat = false;
 var occupyBack = false;
+//frequency to ping sensors
+var pingRate = 250;
 
 
 //length of buffer array
@@ -114,7 +116,7 @@ function occupied( fsr_index, value ){
   //FSR 00
   fsrs[0] = new five.Sensor({
     pin: "A0",
-    freq: 100
+    freq: pingRate
   });
 
   buffers[0] = [];
@@ -138,7 +140,7 @@ function occupied( fsr_index, value ){
   //FSR 01
   fsrs[1] = new five.Sensor({
     pin: "A1",
-    freq: 100
+    freq: pingRate
   });
 
   buffers[1] = [];
