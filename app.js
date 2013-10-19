@@ -24,7 +24,7 @@ WIRING DIAGRAM:
 
 */
 //log deltas to the console for debugging thresholds
-var debug = false;
+var debug = true;
 var debug_sensor = 0;
 
 
@@ -113,7 +113,7 @@ function occupied( fsr_index, value ){
   });
 
   buffers[0] = [];
-  thresholds[0] = 40;
+  thresholds[0] = 85;
 
   fsrs[0].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
@@ -131,7 +131,7 @@ function occupied( fsr_index, value ){
   });
 
   buffers[1] = [];
-  thresholds[1] = 60;
+  thresholds[1] = 85;
   
   fsrs[1].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);

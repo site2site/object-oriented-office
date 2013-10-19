@@ -50,12 +50,12 @@ five.Board().on("ready", function() {
   //
   // Fires when the calculated heading has changed
   //
-  mag.on("headingchange", function() {
+  //mag.on("headingchange", function() {
 
     //console.log( "heading", Math.floor(this.heading) );
     //console.log( "bearing", this.bearing );
 
-  });
+  //});
 
   // "read"
   //
