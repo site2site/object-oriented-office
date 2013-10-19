@@ -57,3 +57,9 @@ project: object-oriented-office
 *	![interface - diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/newimages2/webdiagram2.gif)
 
 ### The data is combined and represented by color values (time), gradient (direction), and gradient interaction (black or white)
+
+## Archived Visualizations 
+
+*	![interface - diagram](https://raw.github.com/site2site/object-oriented-office/master/docs/images/newimages2/archive.jpg)
+
+### A timeline that organizes the averages of each chair visualization by day. 
