@@ -38,15 +38,22 @@ var buffers = [];
 var fsrs = [];
 //array of thresholds values
 var thresholds = [];
-//array for on/off buffer
+//boolean for on/off buffer
 var occupySeat = false;
 var occupyBack = false;
 //frequency to ping sensors
 var pingRate = 100;
+//bounce buffer array
+var bouncers = []
+
+// shift register for deboucing
+var shift_register = [];
+var shift_register_max = 10;
 
 
 //length of buffer array
 var MAX_BUFFER_LENGTH = 25;
+var MAX_BOUNCE_LENGTH = 15;
 
 //function for grabbing minimum value from buffer array
 function getMin( buf ){
@@ -110,6 +117,29 @@ function occupied( fsr_index, value ){
   }
 }
 
+//de-bounce function for occupancy
+function debounce(new_value){
+  if(shift_register.length >= shift_register_max){
+    shift_register.shift();
+  }
+
+  shift_register.push(new_value);
+
+  var total = 0;
+  shift_register.forEach(function(val){
+    if(val == true){
+      total++;
+    }
+  });
+
+  if( (total/2) >= (shift_register_max/2) ){
+    return true;
+  }else{
+    return false;
+  }
+
+  
+}
 
 (new five.Board()).on("ready", function() {
 
@@ -121,10 +151,12 @@ function occupied( fsr_index, value ){
 
   buffers[0] = [];
   thresholds[0] = 70;
+  bouncers[0] = [];
 
   fsrs[0].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
     var oc = occupied( 0, this.value );
+
     if(oc == true){
       //console.log( 'occupied fsr 0' );
       occupySeat = true;
@@ -134,6 +166,7 @@ function occupied( fsr_index, value ){
     } else {
       occupySeat = false;
     }
+    sb.send("", "boolean" debounce(occupySeat) );
   });
 
 
@@ -145,6 +178,7 @@ function occupied( fsr_index, value ){
 
   buffers[1] = [];
   thresholds[1] = 70;
+  bouncers[1] = []
   
   fsrs[1].scale([ 0, 100 ]).on("data",function(){
     //console.log("seat_left: " + this.value);
